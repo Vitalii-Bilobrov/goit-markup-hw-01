@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,89 +9,92 @@
   <body>
     <header>
       <!--Верхня лінія-->
-      <div>
-        <span class="company_name-blue company_name">Web</span
-        ><span class="company_name">Studio</span>
-      </div>
+     
       <nav>
+        <a>
+          <span class="company_name-blue company_name">Web</span
+          ><span class="company_name">Studio</span>
+        </a>
         <ul>
-          <li>Студія</li>
-          <li>Портфоліо</li>
-          <li>Контакти</li>
+          <li><a>Студія</a></li>
+          <li><a>Портфоліо</a></li>
+          <li><a>Контакти</a></li>
         </ul>
       </nav>
-      <div>
-        <a class="email" href="mailto:info@devstudio.com">
+      <ul>
+        <li><a class="email" href="mailto:info@devstudio.com">
           info@devstudio.com</a
-        >
-        <a class="tel" href="tel:+380961111111"> +380-96-111-11-11</a>
-        <div>
+        ></li>
+        <li><a class="tel" href="tel:+380961111111"> +380-96-111-11-11</a></li>
+      </ul>
           <img src="./images/finger_1p.jpg" alt="pointer" />
           <img src="./images/finger_1p.jpg" alt="pointer" />
         </div>
       </div>
-      <!--Шапка-->
-      <div>
-        <h1 class="motto">Ефективні рішення для вашого бізнесу</h1>
-      </div>
-
-      <button class="button">Замовити послугу</button>
+      
     </header>
     <main>
+      <!--Шапка-->
+      <section class="hero">
+        <h1 class="motto">Ефективні рішення для вашого бізнесу</h1>
+      <button class="button">Замовити послугу</button>
+    </section>
       <!--Наші особливості-->
       <section class="advantages">
-        <div>
+       <h2></h2>
+       <ul>
           <h3 class="advantages_main">УВАГА ДО ДЕТАЛЕЙ</h3>
-          <span class="advantages_description">
+          <p class="advantages_description">
             Ідейні міркування, і навіть початок повсякденної роботи з формування
-            позиції.</span
+            позиції.</p
           >
-        </div>
+        
         <div>
           <h3 class="advantages_main">ПУНКТУАЛЬНІСТЬ</h3>
-          <span class="advantages_description"
+          <p class="advantages_description"
             >Завдання організації, особливо рамки і місце навчання кадрів тягне
-            у себе.</span
+            у себе.</p
           >
         </div>
         <div>
           <h3 class="advantages_main">ПЛАНУВАННЯ</h3>
-          <span class="advantages_description"
+          <p class="advantages_description"
             >Так само консультація з широким активом значною мірою
-            зумовлює.</span
+            зумовлює.</p
           >
         </div>
         <div>
           <h3 class="advantages_main">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-          <span class="advantages_description"
+          <p class="advantages_description"
             >Значимість цих проблем настільки очевидна, що реалізація планових
-            завдань.</span
+            завдань.</p
           >
+        </ul>
         </div>
       </section>
       <!--Чим ми займаємось-->
       <section>
         <h2>Чим ми займаємося</h2>
-        <div>
-          <img
+        <ul>
+          <li><img
             src="./images/computer_1p.jpg"
             alt="work with computer"
             width="370"
             height="294"
-          />
-          <img
+          /></li>
+          <li><img
             src="./images/telephon_1p.jpg"
             alt="work with mobile phone"
             width="370"
             height="294"
-          />
-          <img
+          /></li>
+          <li><img
             src="./images/desktop_1p.jpg"
             alt="work with desktop"
             width="370"
             height="294"
-          />
-        </div>
+          /></li>
+        </ul>
       </section>
       <!--Наша команда-->
       <section>
@@ -142,17 +145,18 @@
     </main>
     <!--Підвал-->
     <footer>
-      <div>
+      <a>
         <span class="company_name-blue company_name">Web</span
         ><span class="company_name">Studio</span>
-        <address>
-          <span> м. Київ, пр-т Лесі Українки, 26 </span>
-          <a class="email" href="mailto:info@devstudio.com">
+      </a>
+        <ul>
+          <li><span> м. Київ, пр-т Лесі Українки, 26 </span></li>
+          <li><a class="email" href="mailto:info@devstudio.com">
             info@devstudio.com</a
-          >
+          ></li>
           <a class="tel" href="tel:+380961111111"> +380-96-111-11-11</a>
-        </address>
-      </div>
+        </ul>
+     
     </footer>
   </body>
 </html>
